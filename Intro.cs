@@ -17,7 +17,7 @@ public class Intro : MonoBehaviour
     IEnumerator Wait_for_intro()
     {
         yield return new WaitForSeconds(wait_time);
-
+        //you can change the "Mainmune" to any thing ok :)
         SceneManager.LoadScene("Mainmune");
     }
 
